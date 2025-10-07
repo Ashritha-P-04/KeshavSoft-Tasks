@@ -1,0 +1,19 @@
+{
+  "name": "keshavsoft-assignment",
+  "version": "1.0.0",
+  "description": "I began by reading through the internship task instructions and outlining where each page would go. I set up a basic folder structure with main HTML files and a single CSS file.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+     "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^7.1.9"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.4"
+  }
+}

@@ -1,40 +1,39 @@
-# Internship Task – Website Development using Bootstrap 5
+# 🧠 Internship Task – Website Development using Nunjucks + Gulp
 
-## 🧠 Overview
-I began by reading through the internship task instructions and outlining where each page would go. I set up a basic folder structure with main HTML files and a single CSS file.
+## ⚙️ Setup  
+- Installed **Nunjucks**, **Gulp**, and **BrowserSync** for templating and live preview.  
+- Created a **modular folder structure** with `partials` (header, footer) and `pages` for each section.  
 
-## 🏗️ Development Process
-- Included **Bootstrap 5 (via CDN)** for styling and responsiveness.
-- Created a **common navbar** and **footer** for all pages.
-- Built the **hero section** using the Bootstrap grid system, placing text on one side and an image on the other for a modern, balanced layout.
-- Added **feature cards** and **content sections** using Bootstrap components.
-- Designed the **About page** with a two-column layout to tell the business story using images and text.
-- Created a **Contact page** with a Bootstrap form.
-- Applied **custom CSS** for theme and typography — using a teal color scheme and the **Poppins** font for readability and a modern look.
+## 🏗️ Development  
+- Used **Nunjucks** templates to include reusable parts (`{% include "header.njk" %}`).  
+- Styled layout using **Bootstrap 5 (via CDN)**.  
+- Added **hero section**, **feature cards**, **about**, and **contact form**.  
+- Applied **custom CSS** with theme colors and fonts (Poppins + teal).  
 
-## 💻 Responsiveness
-I tested the site across different screen sizes to ensure it was fully responsive and displayed consistently on all devices.
+## 💻 Responsiveness  
+- Verified layout with Bootstrap grid and utility classes on all devices.  
 
-## 🛠️ Resources Used
-- [Bootstrap 5 Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
-- **ChatGPT** (for reference and guidance)
-- **Unsplash** (for free, high-quality images)
+## 🧩 Challenges  
+- Faced path errors in Nunjucks includes → fixed by correct folder references.  
+- Live reload setup issue in Gulp → resolved using BrowserSync configuration.  
 
-## 🧩 Challenges Faced
-Some of the main issues included:
-- Navbar overlapping with content  
-- Image alignment and spacing problems  
+## 🎯 Learnings  
+- Gained experience with **templating using Nunjucks**.  
+- Understood **task automation with Gulp** for faster development.  
+- Improved modular and reusable web design approach.  
 
-I solved these using **Bootstrap utility classes** and by adjusting padding and margins.
+## ⏱️ Duration  
+- Completed in **1.5 hours** including setup and testing.  
 
-## 🎯 Learning Outcomes
-This project helped me:
-- Understand the complete process of setting up and structuring a website.
-- Improve my knowledge of Bootstrap components and customization.
-- Learn how to maintain a uniform, clean, and responsive design.
+## 🛠️ Tools & Technologies  
+- **Nunjucks** – for HTML templating  
+- **Gulp** – for task automation  
+- **Bootstrap 5** – for responsive UI  
+- **BrowserSync** – for live reloading  
+- **Custom CSS** – for theme styling  
 
-## ⏱️ Duration
-It took approximately **1 hour** to complete the entire task.
+
+## 📸 Preview  
+Responsive multipage website built using Nunjucks templating and Bootstrap 5.
 
 ---
-

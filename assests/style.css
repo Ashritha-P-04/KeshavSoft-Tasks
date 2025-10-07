@@ -1,0 +1,16 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: teal;
+}
+
+.about h2 {
+  color: teal;
+}
+
+form label {
+  font-weight: 600;
+}
